@@ -71,9 +71,9 @@ function DiscordMessage({
 
 	return (
 		<div className={messageClasses}>
-			<div className="discord-author-avatar">
+			{/* <div className="discord-author-avatar">
 				<img src={profile.avatar} alt={profile.author} />
-			</div>
+			</div> */}
 			<div className="discord-message-content">
 				{!compactMode ? authorInfo.comfy : null}
 				<div className="discord-message-body">
