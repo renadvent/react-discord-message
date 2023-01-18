@@ -1,6 +1,6 @@
 .discord-embed {
 	color: #dcddde;
-	display: flex;
+	display: block;
 	margin-top: 8px;
 	margin-bottom: 8px;
 	font-size: 13px;
@@ -24,7 +24,7 @@
 
 .discord-embed .discord-embed-container {
 	background-color: #2f3136;
-	display: flex;
+	display: block;
 	flex-direction: column;
 	/* max-width: 520px; */
 	padding: 8px 16px 16px;
@@ -38,7 +38,7 @@
 }
 
 .discord-embed .discord-embed-content {
-	display: flex;
+	display: block;
 }
 
 .discord-embed .discord-embed-thumbnail {
@@ -102,7 +102,7 @@
 
 .discord-embed .discord-embed-footer {
 	color: #72767d;
-	display: flex;
+	display: block;
 	align-items: center;
 	font-size: 0.85em;
 	margin-top: 8px;
