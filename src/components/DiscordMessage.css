@@ -1,6 +1,6 @@
 .discord-message {
 	color: #dcddde;
-	display: flex;
+	display: grid;
 	font-size: 0.9em;
 	margin: 1em 0;
 	padding: 0.25em 1em 0;
